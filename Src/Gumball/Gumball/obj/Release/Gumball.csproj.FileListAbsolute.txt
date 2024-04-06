@@ -1,0 +1,10 @@
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\bin\Release\Gumball.exe.config
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\bin\Release\Gumball.exe
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\bin\Release\Gumball.pdb
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\obj\Release\Gumball.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\obj\Release\Gumball.Form1.resources
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\obj\Release\Gumball.Properties.Resources.resources
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\obj\Release\Gumball.csproj.GenerateResource.cache
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\obj\Release\Gumball.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\obj\Release\Gumball.exe
+C:\Users\micha\Documents\github\Gumball\Src\Gumball\Gumball\obj\Release\Gumball.pdb
