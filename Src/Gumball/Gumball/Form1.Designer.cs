@@ -36,6 +36,8 @@
             this.lbp2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lbscorep1 = new System.Windows.Forms.Label();
+            this.lbscorep2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +57,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(459, 638);
+            this.label1.Location = new System.Drawing.Point(406, 638);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 1;
@@ -65,7 +67,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(459, 676);
+            this.label2.Location = new System.Drawing.Point(406, 676);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 2;
@@ -75,7 +77,7 @@
             // 
             this.lbp1.AutoSize = true;
             this.lbp1.BackColor = System.Drawing.Color.Transparent;
-            this.lbp1.Location = new System.Drawing.Point(431, 638);
+            this.lbp1.Location = new System.Drawing.Point(378, 638);
             this.lbp1.Name = "lbp1";
             this.lbp1.Size = new System.Drawing.Size(14, 16);
             this.lbp1.TabIndex = 3;
@@ -85,7 +87,7 @@
             // 
             this.lbp2.AutoSize = true;
             this.lbp2.BackColor = System.Drawing.Color.Transparent;
-            this.lbp2.Location = new System.Drawing.Point(431, 676);
+            this.lbp2.Location = new System.Drawing.Point(378, 676);
             this.lbp2.Name = "lbp2";
             this.lbp2.Size = new System.Drawing.Size(0, 16);
             this.lbp2.TabIndex = 4;
@@ -93,7 +95,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(528, 635);
+            this.pictureBox1.Location = new System.Drawing.Point(475, 635);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 20);
             this.pictureBox1.TabIndex = 5;
@@ -102,11 +104,31 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Black;
-            this.pictureBox2.Location = new System.Drawing.Point(529, 673);
+            this.pictureBox2.Location = new System.Drawing.Point(476, 673);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(20, 20);
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            // 
+            // lbscorep1
+            // 
+            this.lbscorep1.AutoSize = true;
+            this.lbscorep1.BackColor = System.Drawing.Color.Transparent;
+            this.lbscorep1.Location = new System.Drawing.Point(528, 638);
+            this.lbscorep1.Name = "lbscorep1";
+            this.lbscorep1.Size = new System.Drawing.Size(14, 16);
+            this.lbscorep1.TabIndex = 7;
+            this.lbscorep1.Text = "0";
+            // 
+            // lbscorep2
+            // 
+            this.lbscorep2.AutoSize = true;
+            this.lbscorep2.BackColor = System.Drawing.Color.Transparent;
+            this.lbscorep2.Location = new System.Drawing.Point(528, 677);
+            this.lbscorep2.Name = "lbscorep2";
+            this.lbscorep2.Size = new System.Drawing.Size(14, 16);
+            this.lbscorep2.TabIndex = 8;
+            this.lbscorep2.Text = "0";
             // 
             // Form1
             // 
@@ -115,6 +137,8 @@
             this.BackgroundImage = global::Gumball.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(982, 753);
+            this.Controls.Add(this.lbscorep2);
+            this.Controls.Add(this.lbscorep1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbp2);
@@ -143,6 +167,8 @@
         private System.Windows.Forms.Label lbp2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lbscorep1;
+        private System.Windows.Forms.Label lbscorep2;
     }
 }
 

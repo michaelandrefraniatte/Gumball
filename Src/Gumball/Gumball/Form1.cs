@@ -69,6 +69,10 @@ namespace Gumball
         {
             if (pictureboxes[index].BackColor == Color.Silver)
             {
+                if (lbp1.Text == ">")
+                    lbscorep1.Text = (Convert.ToInt32(lbscorep1.Text) + 1).ToString();
+                if (lbp2.Text == ">")
+                    lbscorep2.Text = (Convert.ToInt32(lbscorep2.Text) + 1).ToString();
                 bool player1turn = false;
                 bool player2turn = false;
                 if (lbp1.Text == ">")
